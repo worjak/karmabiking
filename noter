@@ -1,0 +1,7 @@
+55.6845/12.5435
+http://www.openstreetmap.org/#map=13/55.6845/12.5435
+
+http://download.bbbike.org/osm/bbbike/Copenhagen/
+
+wget --progress=dot:mega http://download.bbbike.org/osm/bbbike/Copenhagen/Copenhagen.osm.gz
+gunzip Copenhagen.osm.gz
