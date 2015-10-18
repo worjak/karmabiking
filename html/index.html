@@ -37,7 +37,7 @@
   });
   //map.getView().setRotation(Math.PI/2);
   var params = {
-  LAYERS: 'cphbiking:v_cphbiking',
+  LAYERS: 'karmabiking:v_karmabiking',
   FORMAT: 'image/png'
 	};
   // The "start" and "destination" features.
@@ -74,7 +74,7 @@ map.on('click', function(event) {
     params.viewparams = viewparams.join(';');
     result = new ol.layer.Image({
       source: new ol.source.ImageWMS({
-        url: 'http://localhost:8082/geoserver/cphbiking/wms',
+        url: 'http://localhost:8082/geoserver/karmabiking/wms',
         params: params
       })
     });
