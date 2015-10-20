@@ -7,7 +7,9 @@ We use:
 * Postgis
 * pgrouting
 * osm2pgrouting
+* osm2pgsql
 * Openstreetmaps data
 * apache webserver
 * geoserver 
 * open layers
+* osgeo-live
