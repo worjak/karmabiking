@@ -30,7 +30,7 @@ ALTER TABLE public.greenroads_lst OWNER TO "user";
 -- Data for Name: greenroads_lst; Type: TABLE DATA; Schema: public; Owner: user
 --
 
-COPY greenroads_lst FROM '/home/user/Desktop/karmabiking_notes/greenroads_lst.csv' DELIMITER ',' CSV HEADER;
+COPY greenroads_lst FROM '~/karmabiking/cost_model/greenroads_lst.csv' DELIMITER ',' CSV HEADER;
 
 --
 -- PostgreSQL database dump complete
