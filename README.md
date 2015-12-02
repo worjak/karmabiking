@@ -13,3 +13,5 @@ We use:
 * geoserver 
 * open layers
 * osgeo-live
+
+The code in this project can be seen in work on this site: http://karmabiking.com
